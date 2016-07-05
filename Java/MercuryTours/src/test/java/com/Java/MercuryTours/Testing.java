@@ -3,9 +3,9 @@ package com.Java.MercuryTours;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
-import junit.framework.Assert;
 
 public class Testing {
 	

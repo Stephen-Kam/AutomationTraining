@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
-
 public class Main {
 
 		WebDriver driver = new FirefoxDriver();
@@ -20,10 +19,9 @@ public class Main {
 		homepage.listLinks();
 	}
 	
-	
 	@AfterTest
 	public void closeDriver() {
-		driver.quit();
+		driver.close();
 	}
 
 }
