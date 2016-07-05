@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7014" started-at="2016-07-05T13:52:12Z" finished-at="2016-07-05T13:52:19Z">
+  <suite name="Default suite" duration-ms="6705" started-at="2016-07-05T14:03:06Z" finished-at="2016-07-05T14:03:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7014" started-at="2016-07-05T13:52:12Z" finished-at="2016-07-05T13:52:19Z">
+    <test name="Default test" duration-ms="6705" started-at="2016-07-05T14:03:06Z" finished-at="2016-07-05T14:03:13Z">
       <class name="com.Java.MercuryTours.Main">
-        <test-method status="PASS" signature="launchSite()[pri:0, instance:com.Java.MercuryTours.Main@39b43d60]" name="launchSite" is-config="true" duration-ms="1642" started-at="2016-07-05T14:52:12Z" finished-at="2016-07-05T14:52:14Z">
+        <test-method status="PASS" signature="launchSite()[pri:0, instance:com.Java.MercuryTours.Main@39b43d60]" name="launchSite" is-config="true" duration-ms="1501" started-at="2016-07-05T15:03:06Z" finished-at="2016-07-05T15:03:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchSite -->
-        <test-method status="PASS" signature="checkLinks()[pri:0, instance:com.Java.MercuryTours.Main@39b43d60]" name="checkLinks" duration-ms="4904" started-at="2016-07-05T14:52:14Z" finished-at="2016-07-05T14:52:19Z">
+        <test-method status="PASS" signature="checkLinks()[pri:0, instance:com.Java.MercuryTours.Main@39b43d60]" name="checkLinks" duration-ms="4693" started-at="2016-07-05T15:03:08Z" finished-at="2016-07-05T15:03:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLinks -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.Java.MercuryTours.Main@39b43d60]" name="closeDriver" is-config="true" duration-ms="431" started-at="2016-07-05T14:52:19Z" finished-at="2016-07-05T14:52:19Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.Java.MercuryTours.Main@39b43d60]" name="closeDriver" is-config="true" duration-ms="486" started-at="2016-07-05T15:03:12Z" finished-at="2016-07-05T15:03:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

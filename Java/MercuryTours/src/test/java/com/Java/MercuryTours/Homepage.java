@@ -27,11 +27,13 @@ public class Homepage {
 	public void listLinks(){
 		
 		List<WebElement> aList = driver.findElements(By.xpath("html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/*"));
+		//List<WebElement> aList = driver.findElements(By.tagName("a"));
 		for (int i=0; i < aList.size(); i++) {
 			aList.get(i).click();
 			System.out.println(driver.getTitle());
 			checkText(i);
 			driver.navigate().back();
+			//aList = driver.findElements(By.tagName("a"));
 			aList = driver.findElements(By.xpath("html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/*"));
 		}
 	}
