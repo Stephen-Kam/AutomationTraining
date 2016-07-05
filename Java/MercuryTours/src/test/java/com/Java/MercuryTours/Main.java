@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
-import junit.framework.Assert;
 
 public class Main {
 
@@ -17,11 +16,10 @@ public class Main {
 	}
 	
 	@Test
-	public void navigateToRegister() {
-		homepage.register.click();
-		System.out.println(driver.getTitle());
-		Assert.assertTrue("Check title is correct", driver.getTitle().contains("Register: Mercury Tours"));
+	public void checkLinks() {
+		homepage.listLinks();
 	}
+	
 	
 	@AfterTest
 	public void closeDriver() {
